@@ -16,6 +16,9 @@ app.use(
   })
 );
 
+app.get("/", (req, resp) => {
+  resp.send("Hello");
+});
 app.use("/api/user", userRouter);
 app.use("/api/generate", imageRouter);
 
@@ -24,3 +27,5 @@ connectDB().then(() => {
     console.log(`Server is running at Port : ${PORT}`);
   });
 });
+
+export default app;
