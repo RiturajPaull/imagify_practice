@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 const Description = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-3 mx-32">
-      <h1 className=" text-center w-80 text-3xl font-semibold sm:text-4xl">
+      <h1 className="text-center w-80 text-3xl font-semibold sm:text-4xl">
         Create AI Images
       </h1>
       <p className="text-sm text-gray-600">
@@ -12,7 +12,7 @@ const Description = () => {
       </p>
       <div className="flex flex-col gap-5 sm:gap-14 md:flex-row items-center">
         <img src={assets.sample_img_1} className="w-80 xl:w-96 rounded-lg" />
-        <div className="flex flex-wrap justify-center gap-6 max-w-[50]">
+        <div className="flex flex-wrap justify-center gap-6 max-w-[50rem]">
           <h2 className="text-gray-700 text-3xl font-medium mx-w-lg mb-4">
             Introducing the AI-Powered Text to Image Generator
           </h2>
