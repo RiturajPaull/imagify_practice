@@ -1,4 +1,5 @@
 export const baseURL = "https://imagify-server-beta.vercel.app";
+// export const baseURL = "http://localhost:3000";
 
 export const SummaryAPI = {
   register: {
