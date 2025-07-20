@@ -35,4 +35,40 @@ Follow these steps to run Imagify locally:
 git clone https://github.com/RiturajPaull/imagify_practice.git
 cd imagify_practice
 ```
+### 2.  Setup Backend
+```bash
+cd backend
+npm install
+```
+### 3.  Create a .env file in the backend folder and add:
+```bash
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+CLIPDROP_API_KEY=your_clipdrop_api_key
+RAZORPAY_KEY_ID=your_razorpay_key_id
+RAZORPAY_KEY_SECRET=your_razorpay_key_secret
+```
+### 3. Start the backend server:
+```bash
+npm start
+```
 
+### 3. Setup Frontend
+```bash
+cd ../frontend
+npm install
+```
+### 3. Add a .env file in the frontend folder:
+```bash
+REACT_APP_API_URL=http://localhost:5000
+REACT_APP_RAZORPAY_KEY=your_razorpay_key_id
+```
+### 3. Start the frontend:
+```bash
+npm start
+```
+
+
+###👤 Author
+Made with ❤️ by Rituraj Paul
