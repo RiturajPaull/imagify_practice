@@ -69,6 +69,7 @@ REACT_APP_RAZORPAY_KEY=your_razorpay_key_id
 npm start
 ```
 
+---
 
 ###👤 Author
-Made with ❤️ by Rituraj Paul
+- Made with ❤️ by Rituraj Paul
